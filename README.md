@@ -1,1 +1,3 @@
-## Copyright &copy; 2015  Abdul Thajudeen
+## One place for all your social presence.
+
+Coming Soon ! ! !
