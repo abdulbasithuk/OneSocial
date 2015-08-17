@@ -16,19 +16,28 @@
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-  <div class="navbar">Test App</div>
-  <div class="menu">
-    <li><a href="#/view1">Twitter</a></li>
-    <li><a href="#/view2">view2</a></li>
+  <div class="header navbar navbar-default navbar-fixed-top navbar-inner">
+    <span class="container">
+      <span>One Social</span>
+    </div>
   </div>
+  <div class="body">
+    <div class="row">
+      <div class="menu col-md-2">
+        <li><a href="#/view1">Twitter</a></li>
+        <li><a href="#/view2">view2</a></li>
+      </div>
 
+      <div class="content col-md-10">
+        <div ng-view></div>
+      </div>
+    </div>
+  </div>
+<!--  <div class="footer">Angular seed app: v<span app-version></span></div>-->
+  <div class="footer"> &copy; 2015 Abdul Thajudeen - <a href="https://github.com/abdulbasithuk">Github</a></div>
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-
-  <div class="body" ng-view></div>
-
-  <div class="footer">Angular seed app: v<span app-version></span></div>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>

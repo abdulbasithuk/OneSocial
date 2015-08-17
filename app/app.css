@@ -1,2 +1,16 @@
 /* app css stylesheet */
-
+.header{
+    padding-left: 50px;
+    font-size: 25px;
+    color: #808080;
+}
+.body {
+    height: 500px;
+    padding-top: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.footer {
+    padding-left: 50px;
+}
