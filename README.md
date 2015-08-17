@@ -1,3 +1,1 @@
-## Using angular-seed template
-Ref: `https://github.com/angular/angular-seed`
-
+## Copyright &copy; 2015  Abdul Thajudeen
